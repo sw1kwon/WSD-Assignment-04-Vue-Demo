@@ -16,7 +16,8 @@ defineComponent({
   }
 });
 
-const apiKey = localStorage.getItem('TMDb-Key') || '';
+// 환경 변수에서 API 키 가져오기
+const apiKey = import.meta.env.VITE_TMDB_API_KEY || '';
 const fetchURL = getURL4PopularMovies(apiKey);
 
 const currentView = ref('grid');
