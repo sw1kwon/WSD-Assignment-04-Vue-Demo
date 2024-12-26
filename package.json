@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 3000",
     "serve": "vue-cli-service serve --mode development",
-    "build": "vue-cli-service build --mode production", // "build": "vue-tsc -b && vite build",
+    "build": "vue-cli-service build --mode production",
     "preview": "vite preview"
   },
   "dependencies": {
